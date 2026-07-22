@@ -1,17 +1,35 @@
-#### Arch:
+#### Requirements
 
-```sh 
-sudo pacman -S git nodejs npm clang ninja cmake
-git clone https://github.com/BBIAntares/vim-config
-cd vim-config
-./test.sh
-```
+* Git
 
-#### Debian:
+* nodejs
+
+* npm
+
+* clang
+
+#### Getting Started
+
+* Clone the repo: 
 
 ```sh
-sudo apt install git nodejs npm clang ninja cmake
-git clone https://github.com/BBIAntares/vim-config
-cd vim-config
-./test.sh
+
+git clone https://github.com/BBIAntares/vim-config ~/.config/vim
+
+```
+
+* Remove the .git folder:
+
+```sh
+
+rm -rf ~/.config/vim/.git
+
+```
+
+* Start test.sh
+
+```sh
+
+cd .config/vim && ./start.sh 
+
 ```
