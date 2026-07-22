@@ -2,11 +2,15 @@
 
 * Git
 
-* nodejs
+* nodejs for [coc.vim](https://github.com/neoclide/coc.nvim)
 
-* npm
+* npm 
 
-* clang
+* clang for [coc-clangd](https://github.com/clangd/coc-clangd)
+
+* curl for [vim-plug](https://github.com/junegunn/vim-plug)
+
+* cmake for [vim-cmake](https://github.com/cdelledonne/vim-cmake)
 
 #### Getting Started
 
